@@ -2,7 +2,7 @@
 
 Settings for igapyonv3 env
 =====================================================================================================
-tueda's diary
+![tueda's diary](https://uedaueo.github.io/diary-of-tueda/images/furoduck_100.JPEG "うえだうえお") tueda's diary
 
 ## Settings for igapyonv3 env
 
@@ -41,4 +41,5 @@ This file is settings for [[igapyonv3]].
 
 ## About tueda's diary
 
-[Share on Twitter](https://twitter.com/intent/tweet?hashtags=tueda%2Cuedaueo&text=Settings+for+igapyonv3+env&url=https%3A%2F%2Fuedaueo.github.io%2Fdiary-of-tueda%2Fsettings.html) / [top](index.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* この日記はうえだうえお (aka 上田達也) が書いています。概ね個人の意見ですが、たまに有限会社うえだうえおうぇあを代表して発言する事があります。
+* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=tueda%2Cuedaueo&text=Settings+for+igapyonv3+env&url=https%3A%2F%2Fuedaueo.github.io%2Fdiary-of-tueda%2Fsettings.html) / [top](index.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)

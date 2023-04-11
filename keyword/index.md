@@ -2,7 +2,7 @@
 
 tueda's diary: keyword
 =====================================================================================================
-tueda's diary
+![tueda's diary](https://uedaueo.github.io/diary-of-tueda/images/furoduck_100.JPEG "うえだうえお") tueda's diary
 
 [2023](../2023/index.html)
 / [ALL](../idxall.html)
@@ -21,4 +21,5 @@ tueda's diary
 
 ## About tueda's diary
 
-[Share on Twitter](https://twitter.com/intent/tweet?hashtags=tueda%2Cuedaueo&text=tueda%27s+diary%3A+keyword&url=https%3A%2F%2Fuedaueo.github.io%2Fdiary-of-tueda%2Fkeyword%2Findex.html) / [top](../index.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* この日記はうえだうえお (aka 上田達也) が書いています。概ね個人の意見ですが、たまに有限会社うえだうえおうぇあを代表して発言する事があります。
+* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=tueda%2Cuedaueo&text=tueda%27s+diary%3A+keyword&url=https%3A%2F%2Fuedaueo.github.io%2Fdiary-of-tueda%2Fkeyword%2Findex.html) / [top](../index.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
