@@ -4,5 +4,4 @@
 
 ## About tueda's diary
 
-<@linkshare /> / <@linktop /> / [Diary Generator](https://github.com/igapyon/igapyonv3)
-
+<@linkshare word="${current.title}" tags="tueda,uedaueo" /> / <@linktop /> / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)

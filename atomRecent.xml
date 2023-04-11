@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>tueda's diary recent</title>
-  <dc:creator>Taro Yamada</dc:creator>
+  <dc:creator>Tatsuya Ueda</dc:creator>
   <dc:language>ja_JP</dc:language>
+  <entry>
+    <title>2023-04-11 diary: igapyonv3 で日記はじめました</title>
+    <link rel="alternate" href="https://uedaueo.github.io/diary-of-tueda/2023/ig230411.html" />
+    <author>
+      <name>Tatsuya Ueda</name>
+    </author>
+    <id>https://uedaueo.github.io/diary-of-tueda/2023/ig230411.html</id>
+    <dc:creator>Tatsuya Ueda</dc:creator>
+  </entry>
 </feed>

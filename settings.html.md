@@ -14,7 +14,7 @@ This file is settings for [[igapyonv3]].
 * debug: false
 * baseurl: https://uedaueo.github.io/diary-of-tueda
 * sourcebaseurl: https://github.com/uedaueo/diary-of-tueda/blob/master
-* author: Taro Yamada
+* author: Tatsuya Ueda
 * generatetodaydiary: true
 * convertmarkdown2html: true
 * duplicatefakehtmlmd: true
@@ -41,5 +41,4 @@ This file is settings for [[igapyonv3]].
 
 ## About tueda's diary
 
-[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2Cigapyonv3&text=Settings+for+igapyonv3+env&url=https%3A%2F%2Fuedaueo.github.io%2Fdiary-of-tueda%2Fsettings.html) / [top](index.html) / [Diary Generator](https://github.com/igapyon/igapyonv3)
-
+[Share on Twitter](https://twitter.com/intent/tweet?hashtags=tueda%2Cuedaueo&text=Settings+for+igapyonv3+env&url=https%3A%2F%2Fuedaueo.github.io%2Fdiary-of-tueda%2Fsettings.html) / [top](index.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)

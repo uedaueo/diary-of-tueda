@@ -13,7 +13,7 @@ ${setDebug("false")}
 ${setGeneratetodaydiary("true")}
 ${setDuplicatefakehtmlmd("true")}
 ${setConvertmarkdown2html("true")}
-${setAuthor("Taro Yamada")}
+${setAuthor("Tatsuya Ueda")}
 ${setBaseurl("https://uedaueo.github.io/diary-of-tueda")}
 ${setSourcebaseurl("https://github.com/uedaueo/diary-of-tueda/blob/master")}
 ${setGeneratekeywordifneeded("true")}
