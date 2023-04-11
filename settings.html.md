@@ -2,7 +2,7 @@
 
 Settings for igapyonv3 env
 =====================================================================================================
-![tueda's diary](https://uedaueo.github.io/diary-of-tueda/images/furoduck_100.JPEG "うえだうえお") tueda's diary
+![tueda's diary](https://uedaueo.github.io/diary-of-tueda/images/furoduck.jpg "うえだうえお") **tueda's diary**
 
 ## Settings for igapyonv3 env
 

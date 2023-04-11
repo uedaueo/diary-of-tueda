@@ -2,7 +2,7 @@
 
 tueda's diary: diary of 2023
 =====================================================================================================
-![tueda's diary](https://uedaueo.github.io/diary-of-tueda/images/furoduck_100.JPEG "うえだうえお") tueda's diary
+![tueda's diary](https://uedaueo.github.io/diary-of-tueda/images/furoduck.jpg "うえだうえお") **tueda's diary**
 
 [2023](index.html)
 / [ALL](../idxall.html)
@@ -10,7 +10,7 @@ tueda's diary: diary of 2023
 
 ## tueda's diary: diary of 2023
 
-* [2023-04-11 diary: igapyonv3 で日記はじめました](ig230411.html)
+* [2023-04-11 diary: igapyonv3 で日記はじめました / 上田版 blancofw の直近の修正予定について](ig230411.html)
 
 
 ----------------------------------------------------------------------------------------------------

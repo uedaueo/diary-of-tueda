@@ -2,7 +2,7 @@
 
 tueda's diary: keyword
 =====================================================================================================
-![tueda's diary](https://uedaueo.github.io/diary-of-tueda/images/furoduck_100.JPEG "うえだうえお") tueda's diary
+![tueda's diary](https://uedaueo.github.io/diary-of-tueda/images/furoduck.jpg "うえだうえお") **tueda's diary**
 
 [2023](../2023/index.html)
 / [ALL](../idxall.html)
