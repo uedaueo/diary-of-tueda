@@ -15,7 +15,7 @@ This file is settings for [[igapyonv3]].
 * baseurl: https://uedaueo.github.io/diary-of-tueda
 * sourcebaseurl: https://github.com/uedaueo/diary-of-tueda/blob/master
 * author: Tatsuya Ueda
-* generatetodaydiary: true
+* generatetodaydiary: false
 * convertmarkdown2html: true
 * duplicatefakehtmlmd: true
 * generatekeywordifneeded: true
