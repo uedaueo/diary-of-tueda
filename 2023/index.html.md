@@ -10,6 +10,7 @@ tueda's diary: diary of 2023
 
 ## tueda's diary: diary of 2023
 
+* [2023-04-13 diary: [igapyonv3] 1日に複数本の日記を書く方法について](ig230413.02.html)
 * [2023-04-13 diary: [igapyonv3] 日記の更新方法について](ig230413.01.html)
 * [2023-04-11 diary: [igapyonv3] で日記はじめました / 上田版 [blancofw] の直近の修正予定について](ig230411.html)
 
