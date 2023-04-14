@@ -13,6 +13,7 @@ tueda's diary: all
 
 ### All diary ([Feed](https://uedaueo.github.io/diary-of-tueda/atom.xml))
 
+* [2023-04-14 diary: [blancofw] 過去日記から重要な物をサルベージ](2023/ig230414.01.html)
 * [2023-04-13 diary: [igapyonv3] 1日に複数本の日記を書く方法について](2023/ig230413.02.html)
 * [2023-04-13 diary: [igapyonv3] 日記の更新方法について](2023/ig230413.01.html)
 * [2023-04-11 diary: [igapyonv3] で日記はじめました / 上田版 [blancofw] の直近の修正予定について](2023/ig230411.html)
