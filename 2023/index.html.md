@@ -5,6 +5,7 @@ tueda's diary: diary of 2023
 ![tueda's diary](https://uedaueo.github.io/diary-of-tueda/images/furoduck.jpg "うえだうえお") **tueda's diary**
 
 [2023](index.html)
+/ [2020](../2020/index.html)
 / [ALL](../idxall.html)
  / [keyword](../keyword/index.html)
 

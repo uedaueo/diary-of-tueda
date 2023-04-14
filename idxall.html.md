@@ -5,6 +5,7 @@ tueda's diary: all
 ![tueda's diary](https://uedaueo.github.io/diary-of-tueda/images/furoduck.jpg "うえだうえお") **tueda's diary**
 
 [2023](2023/index.html)
+/ [2020](2020/index.html)
 / [ALL](idxall.html)
  / [keyword](keyword/index.html)
 
@@ -15,6 +16,8 @@ tueda's diary: all
 * [2023-04-13 diary: [igapyonv3] 1日に複数本の日記を書く方法について](2023/ig230413.02.html)
 * [2023-04-13 diary: [igapyonv3] 日記の更新方法について](2023/ig230413.01.html)
 * [2023-04-11 diary: [igapyonv3] で日記はじめました / 上田版 [blancofw] の直近の修正予定について](2023/ig230411.html)
+* [2020-10-08 diary: [blancofw] apache POI 4.1.2 に対応](2020/ig201008.html)
+* [2020-09-07 diary: [blancofw] blancoDbEE v2.3.1 （上田版）](2020/ig200907.html)
 
 
 ----------------------------------------------------------------------------------------------------
