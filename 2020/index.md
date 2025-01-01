@@ -4,7 +4,8 @@ tueda's diary: diary of 2020 salvaged from tDiary.
 =====================================================================================================
 ![tueda's diary](https://uedaueo.github.io/diary-of-tueda/images/furoduck.jpg "うえだうえお") **tueda's diary**
 
-[2024](../2024/index.html)
+[2025](../2025/index.html)
+/ [2024](../2024/index.html)
 / [2023](../2023/index.html)
 / [2020](index.html)
 / [ALL](../idxall.html)

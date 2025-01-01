@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>tueda's diary year 2025</title>
+  <dc:creator>Tatsuya Ueda</dc:creator>
+  <dc:language>ja_JP</dc:language>
+  <entry>
+    <title>2025-01-01 diary:  [life] 書き初め [blancofw] typescript 系 blanco のプチ更新</title>
+    <link rel="alternate" href="https://uedaueo.github.io/diary-of-tueda/2025/ig250101.01.html" />
+    <author>
+      <name>Tatsuya Ueda</name>
+    </author>
+    <id>https://uedaueo.github.io/diary-of-tueda/2025/ig250101.01.html</id>
+    <dc:creator>Tatsuya Ueda</dc:creator>
+  </entry>
+</feed>
