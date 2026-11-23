@@ -19,8 +19,8 @@ igapyonv3
 
 ### 検索
 
-* [Search 'blancofw' in google in-site](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Fuedaueo.github.io%2Fdiary-of-tueda%2F+igapyonv3)
-* [Search in Google](https://www.google.co.jp/#pws=0&q=igapyonv3)
+* [Search 'blancofw' in google in-site](https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fuedaueo.github.io%2Fdiary-of-tueda%2F+igapyonv3)
+* [Search in Google](https://www.google.com/search?q=igapyonv3)
 * [Search in Twitter](https://twitter.com/search?q=%23igapyonv3)
 
 ### 日記

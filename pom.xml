@@ -1,50 +1,228 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>jp.ueo</groupId>
-  <artifactId>diary-of-tueda</artifactId>
-  <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
-  <name>diary-of-tueda</name>
-  <url>http://maven.apache.org</url>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>jp.ueo</groupId>
+    <artifactId>diary-of-tueda</artifactId>
+    <packaging>jar</packaging>
+    <version>2.0.20261027.3</version>
+    <name>diary-of-tueda</name>
+    <description>tueda's diary</description>
+    <url>http://maven.apache.org</url>
+
   <dependencies>
+      <!-- for igapyonv3 igdiary -->
+      <dependency>
+          <groupId>jp.igapyon.diary</groupId>
+          <artifactId>igapyonv3</artifactId>
+          <version>2.0.20261027.3</version>
+      </dependency>
 
-    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
-    <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter</artifactId>
-        <version>5.9.3</version>
-        <scope>test</scope>
-    </dependency>
+      <!-- Keep the published igapyonv3 dependency set aligned with its updated source POM. -->
+      <dependency>
+          <groupId>org.freemarker</groupId>
+          <artifactId>freemarker</artifactId>
+          <version>2.3.35</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant</artifactId>
+          <version>1.10.18</version>
+      </dependency>
 
-    <!-- https://mvnrepository.com/artifact/jp.igapyon.diary.igapyonv3.plugin/igapyonv3-maven-plugin -->
-    <dependency>
-        <groupId>jp.igapyon.diary.igapyonv3.plugin</groupId>
-        <artifactId>igapyonv3-maven-plugin</artifactId>
-        <version>1.5.4</version>
-    </dependency>
+      <!-- Apache FileUtils -->
+      <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+      <dependency>
+          <groupId>commons-io</groupId>
+          <artifactId>commons-io</artifactId>
+          <version>2.22.0</version>
+      </dependency>
+
+      <!-- Apache StringUtil -->
+      <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+      <dependency>
+          <groupId>org.apache.commons</groupId>
+          <artifactId>commons-lang3</artifactId>
+          <version>3.18.0</version>
+      </dependency>
+
+      <!-- normalize html tag -->
+      <!-- https://mvnrepository.com/artifact/org.ccil.cowan.tagsoup/tagsoup -->
+      <dependency>
+          <groupId>org.ccil.cowan.tagsoup</groupId>
+          <artifactId>tagsoup</artifactId>
+          <version>1.2.1</version>
+      </dependency>
+
+      <!-- SLF4J simple logger to avoid "No SLF4J providers" warning -->
+      <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-simple</artifactId>
+          <version>2.0.20</version>
+          <scope>test</scope>
+      </dependency>
 
   </dependencies>
 
- <build>
-    <plugins>
-      <plugin>
-        <groupId>jp.igapyon.diary.igapyonv3.plugin</groupId>
-        <artifactId>igapyonv3-maven-plugin</artifactId>
-        <version>1.5.4</version>
-        <configuration>
-          <basedir>${project.basedir}</basedir>
-        </configuration>
-        <executions>
-          <execution>
-            <phase>generate-resources</phase>
-            <goals>
-              <goal>generate</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
+    <!-- basic spec for jar -->
+    <properties>
+        <!-- set source as UTF-8 -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-clean-plugin</artifactId>
+                    <version>3.5.0</version>
+                    <dependencies>
+                        <dependency>
+                            <groupId>org.codehaus.plexus</groupId>
+                            <artifactId>plexus-utils</artifactId>
+                            <version>4.0.3</version>
+                        </dependency>
+                    </dependencies>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.16.0</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <version>3.5.0</version>
+                    <dependencies>
+                        <dependency>
+                            <groupId>org.codehaus.plexus</groupId>
+                            <artifactId>plexus-utils</artifactId>
+                            <version>3.6.1</version>
+                        </dependency>
+                    </dependencies>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>3.6.0</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>3.5.1</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-install-plugin</artifactId>
+                    <version>3.2.0</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-deploy-plugin</artifactId>
+                    <version>3.2.0</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-site-plugin</artifactId>
+                    <version>3.22.0</version>
+                    <dependencies>
+                        <dependency>
+                            <groupId>commons-beanutils</groupId>
+                            <artifactId>commons-beanutils</artifactId>
+                            <version>1.11.0</version>
+                        </dependency>
+                    </dependencies>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+        <plugins>
+            <!-- compile as JDK 1.8 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.16.0</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+
+            <!-- set java as runnable -->
+            <!-- mvn install exec:java -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.6.2</version>
+                <configuration>
+                    <mainClass>igapyon.diary.ghpages.App</mainClass>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>igdiary</id>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                        <configuration>
+                            <mainClass>jp.igapyon.diary.igapyonv3.IgDiaryProcessor</mainClass>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- run ant task -->
+            <!-- usage: mvn antrun:run -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>3.2.0</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.apache.ant</groupId>
+                        <artifactId>ant</artifactId>
+                        <version>1.10.18</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.codehaus.plexus</groupId>
+                        <artifactId>plexus-utils</artifactId>
+                        <version>4.0.3</version>
+                    </dependency>
+                </dependencies>
+                <configuration>
+                    <!-- generate keyword md file -->
+                    <target>
+                        <property name="classpath" refid="maven.runtime.classpath" />
+                        <echo level="info">genkeywordmd</echo>
+                        <echo level="info" message="runtime classpath: ${runtime_classpath}" />
+                        <java classname="jp.igapyon.diary.igapyonv3.indexing.keyword.KeywordMdTextGenerator">
+                            <classpath>
+                                <pathelement path="${classpath}" />
+                            </classpath>
+                        </java>
+
+                        <!-- Next -->
+
+                        <!-- convert md to html -->
+                        <property name="classpath" refid="maven.runtime.classpath" />
+
+                        <echo level="info">md2html</echo>
+                        <mkdir dir="target/md2html" />
+                        <java classname="jp.igapyon.diary.igapyonv3.md2html.IgapyonMd2Html">
+                            <arg value="-s" />
+                            <arg value="." />
+                            <arg value="-t" />
+                            <arg value="target/md2html" />
+                            <arg value="-r" />
+                            <classpath>
+                                <pathelement path="${classpath}" />
+                            </classpath>
+                        </java>
+                    </target>
+                </configuration>
+                <goals>
+                    <goal>run</goal>
+                </goals>
+            </plugin>
+        </plugins>
+    </build>
 </project>

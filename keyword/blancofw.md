@@ -19,8 +19,8 @@ blancofw
 
 ### 検索
 
-* [Search 'blancofw' in google in-site](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Fuedaueo.github.io%2Fdiary-of-tueda%2F+blancofw)
-* [Search in Google](https://www.google.co.jp/#pws=0&q=blancofw)
+* [Search 'blancofw' in google in-site](https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fuedaueo.github.io%2Fdiary-of-tueda%2F+blancofw)
+* [Search in Google](https://www.google.com/search?q=blancofw)
 * [Search in Twitter](https://twitter.com/search?q=%23blancofw)
 
 ### 日記
