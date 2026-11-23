@@ -16,6 +16,7 @@ tueda's diary: top
 
 ### Recent diary ([Feed](https://uedaueo.github.io/diary-of-tueda/atomRecent.xml))
 
+* [2026-11-23 diary:  [blancofw] 上田版 blancoFramework / dapandaFramework の今後の予定](2026/ig261123.02.html)
 * [2026-11-23 diary:  [igapyonv3] 日記生成ツール igapyonv3 を 2.0 系に更新](2026/ig261123.01.html)
 * [2025-01-01 diary:  [life] 書き初め [blancofw] typescript 系 blanco のプチ更新](2025/ig250101.01.html)
 * [2024-12-21 diary: [blancofw] blancoDbEE v3.0.4 をリリース](2024/ig241221.01.html)
