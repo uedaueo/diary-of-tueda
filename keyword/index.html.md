@@ -4,7 +4,8 @@ tueda's diary: keyword
 =====================================================================================================
 ![tueda's diary](https://uedaueo.github.io/diary-of-tueda/images/furoduck.jpg "うえだうえお") **tueda's diary**
 
-[2025](../2025/index.html)
+[2026](../2026/index.html)
+/ [2025](../2025/index.html)
 / [2024](../2024/index.html)
 / [2023](../2023/index.html)
 / [2020](../2020/index.html)

@@ -4,7 +4,8 @@ tueda's diary: top
 =====================================================================================================
 ![tueda's diary](https://uedaueo.github.io/diary-of-tueda/images/furoduck.jpg "うえだうえお") **tueda's diary**
 
-[2025](2025/index.html)
+[2026](2026/index.html)
+/ [2025](2025/index.html)
 / [2024](2024/index.html)
 / [2023](2023/index.html)
 / [2020](2020/index.html)
@@ -15,6 +16,7 @@ tueda's diary: top
 
 ### Recent diary ([Feed](https://uedaueo.github.io/diary-of-tueda/atomRecent.xml))
 
+* [2026-11-23 diary:  [igapyonv3] 日記生成ツール igapyonv3 を 2.0 系に更新](2026/ig261123.01.html)
 * [2025-01-01 diary:  [life] 書き初め [blancofw] typescript 系 blanco のプチ更新](2025/ig250101.01.html)
 * [2024-12-21 diary: [blancofw] blancoDbEE v3.0.4 をリリース](2024/ig241221.01.html)
 * [2024-07-10 diary: [dapandafw] dapanda-api-core v1.0.1 をリリース](2024/ig240710.02.html)
