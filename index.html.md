@@ -16,6 +16,7 @@ tueda's diary: top
 
 ### Recent diary ([Feed](https://uedaueo.github.io/diary-of-tueda/atomRecent.xml))
 
+* [2026-11-27 diary: [blancofw] 本日の進捗](2026/ig261127.02.html)
 * [2026-11-27 diary: [blancofw] 上田版 blancoFramework maven リポジトリへのデプロイ方式の変更](2026/ig261127.01.html)
 * [2026-11-24 diary: [blancofw] （復習）blancoFramework 上田版 のメジャーバージョンアを上げる方法](2026/ig261124.01.html)
 * [2026-11-23 diary:  [blancofw] 上田版 blancoFramework / dapandaFramework の今後の予定](2026/ig261123.02.html)
@@ -30,7 +31,6 @@ tueda's diary: top
 * [2023-04-13 diary: [igapyonv3] 日記の更新方法について](2023/ig230413.01.html)
 * [2023-04-11 diary: [igapyonv3] で日記はじめました / 上田版 [blancofw] の直近の修正予定について](2023/ig230411.html)
 * [2020-10-08 diary: [blancofw] apache POI 4.1.2 に対応](2020/ig201008.html)
-* [2020-09-07 diary: [blancofw] blancoDbEE v2.3.1 （上田版）](2020/ig200907.html)
 
 
 ----------------------------------------------------------------------------------------------------

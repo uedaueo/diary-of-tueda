@@ -14,6 +14,7 @@ tueda's diary: diary of 2026
 
 ## tueda's diary: diary of 2026
 
+* [2026-11-27 diary: [blancofw] 本日の進捗](ig261127.02.html)
 * [2026-11-27 diary: [blancofw] 上田版 blancoFramework maven リポジトリへのデプロイ方式の変更](ig261127.01.html)
 * [2026-11-24 diary: [blancofw] （復習）blancoFramework 上田版 のメジャーバージョンアを上げる方法](ig261124.01.html)
 * [2026-11-23 diary:  [blancofw] 上田版 blancoFramework / dapandaFramework の今後の予定](ig261123.02.html)
