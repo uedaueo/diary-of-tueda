@@ -16,6 +16,7 @@ tueda's diary: all
 
 ### All diary ([Feed](https://uedaueo.github.io/diary-of-tueda/atom.xml))
 
+* [2026-11-27 diary: [blancofw] 上田版 blancoFramework maven リポジトリへのデプロイ方式の変更](2026/ig261127.01.html)
 * [2026-11-24 diary: [blancofw] （復習）blancoFramework 上田版 のメジャーバージョンアを上げる方法](2026/ig261124.01.html)
 * [2026-11-23 diary:  [blancofw] 上田版 blancoFramework / dapandaFramework の今後の予定](2026/ig261123.02.html)
 * [2026-11-23 diary:  [igapyonv3] 日記生成ツール igapyonv3 を 2.0 系に更新](2026/ig261123.01.html)
