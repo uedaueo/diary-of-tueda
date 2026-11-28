@@ -4,6 +4,15 @@
   <dc:creator>Tatsuya Ueda</dc:creator>
   <dc:language>ja_JP</dc:language>
   <entry>
+    <title>2026-11-28 diary: [blancofw] うむむ、、、一筋縄ではいかないなあ</title>
+    <link rel="alternate" href="https://uedaueo.github.io/diary-of-tueda/2026/ig261128.01.html" />
+    <author>
+      <name>Tatsuya Ueda</name>
+    </author>
+    <id>https://uedaueo.github.io/diary-of-tueda/2026/ig261128.01.html</id>
+    <dc:creator>Tatsuya Ueda</dc:creator>
+  </entry>
+  <entry>
     <title>2026-11-27 diary: [blancofw] 本日の進捗</title>
     <link rel="alternate" href="https://uedaueo.github.io/diary-of-tueda/2026/ig261127.02.html" />
     <author>
@@ -127,15 +136,6 @@
       <name>Tatsuya Ueda</name>
     </author>
     <id>https://uedaueo.github.io/diary-of-tueda/2023/ig230411.html</id>
-    <dc:creator>Tatsuya Ueda</dc:creator>
-  </entry>
-  <entry>
-    <title>2020-10-08 diary: [blancofw] apache POI 4.1.2 に対応</title>
-    <link rel="alternate" href="https://uedaueo.github.io/diary-of-tueda/2020/ig201008.html" />
-    <author>
-      <name>Tatsuya Ueda</name>
-    </author>
-    <id>https://uedaueo.github.io/diary-of-tueda/2020/ig201008.html</id>
     <dc:creator>Tatsuya Ueda</dc:creator>
   </entry>
 </feed>
